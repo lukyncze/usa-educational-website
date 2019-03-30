@@ -1,19 +1,39 @@
 $(function(){
-    var overviewStates = $('#states');
-    var links = $('#links ul');
+    // VYHLEDÁVÁNÍ V TABULCE
+    $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
+    
+    // VYPSÁNÍ TABULKY
     states.forEach(function(obj,idx){
-        overviewStates.append('<h4>'+obj.czname+'</h4><p>Anglický název: '+obj.enname+'</p><p>Hlavní město: '+obj.capital+'</p><p>Rozloha: '+obj.area+'</p><p>Počet obyvatel: '
-        +obj.population+'</p>');
-        //overviewStates.append('<h4>'+obj.czname+'<small>'+obj.enname+'</small></h4><br>');
-        links.append('<li><a href="'+ obj.link +'">'+ obj.czname +'</a></li>');
+        $('#myTable').append('<tr><td></td><td>'+obj.czname+'</td><td>'+obj.enname+'</td><td>'
+        +obj.capital+'</td><td>'+obj.area+'</td><td>'+obj.population+'</td><td style="text-align: middle"><a href="'
+        +obj.link+'">Klikni zde</a></td></tr>');
+    });
+    
+    // ZVÝRAZNĚNÍ ŘÁDKU PO KLIKNUTÍ NA NĚJ
+    $("#myTable td").on('click',function(){
+        $('#myTable tr').removeClass('bg-info');
+        $(this).parent('tr').addClass('bg-info');
     });
 
-    $('#states h4').click(function(){
-        if ($(this).nextUntil('h4').is(':hidden')) {
-            $(this).css({'background-color':'#048'});
-        } else {
-            $(this).css({'background-color':'#444'});
-        }
-        $(this).nextUntil('h4').toggle(1000);
+    // OTEVÍRÁNÍ A ZAVÍRÁNÍ DAT V TABULCE
+    $('thead').click(function(){
+        $('td').nextUntil('section').toggle(1000);
     });
+
+    // ZMĚNA OBRÁZKŮ
+    $('#obrazky img').attr('src','img/'+obrazky[0].shot+'.jpg');
+    $('#obrazky h3').text(obrazky[0].name);
+    $('#obrazky p').text(obrazky[0].description);
+    var i = 1;
+    window.setInterval(function(){
+        $('#obrazky img').attr('src','img/'+obrazky[i].shot+'.jpg');
+        $('#obrazky h3').text(obrazky[i].name);      
+        $('#obrazky p').text(obrazky[i].description);
+        i<obrazky.length-1 ? i++ : i=0;
+    }, 8000);
 })

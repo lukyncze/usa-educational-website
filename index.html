@@ -13,61 +13,76 @@
 </head>
 
 <body>
-    <header class="text-center text-uppercase p-5">
+    <header class="text-center text-uppercase bg-dark p-5">
         <h1 class="display-3 text-white">Státy Spojených států amerických</h1>
     </header>
 
-    <main>
+    <main class="bg-white">
         <div class="container">
-            <div class="row pb-2 pt-5 content">
-                <div class="col-sm-12 col-md-8">
-                    <h2>Přehled států USA</h2>
-                    <div>
-                        <section id="states">
-                        </section>
+
+            <section id="obrazky" class="mt-5">
+                <div class="row mt-5">
+                    <div class="col-sm-12 col-md-6">
+                        <figure>
+                            <img src="" alt="Obrázky" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <h3></h3>
+                        <p></p>
                     </div>
                 </div>
+                
+            </section>
 
-                <div class="col-sm-12 col-md-4">
-                    <h2>Zajímavosti</h2>
-
-                    <section id="bla">
-                        <h3>Bla</h3>
-                    </section>
-
-                    <section id="text">
-                        <h3>Bla bla</h3>
-                        <article>
-                            <h4>Text..</h4>
-                            <p>Více textu....</p>                                
-                        </article>
-                    </section>
-
-                    <section id="links">
-                        <h3>Odkazy?</h3>
-                        <div>
-                            <ul></ul>
-                        </div>
-                    </section>
-
+            <section id="prehled">
+                <div class="row mt-5">
+                    <div class="col-sm-12 col-md-8">
+                        <h2>Přehled států USA</h2>
+                        <p>Klikni na záhlaví tabulky pro zobrazení všech dat</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <input class="form-control" id="myInput" type="text" placeholder="Hledat informace...">        
+                    </div>
                 </div>
-            </div>
+                <br>
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th>Název</th>
+                            <th>Anglický název</th>
+                            <th>Hlavní město</th>
+                            <th>Rozloha</th>
+                            <th>Počet obyvatel</th>
+                            <th>Více informací</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable">
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            
+
+            
         </div>
     </main>
 
     <footer>
-        <div class="container content-footer p-5">
+        <div class="container p-5">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <div class="text-secondary">
-                        <p><a href="https://www.sspu-opava.cz" target="_blank"><img src="img/sspu-logo.png" alt="Logo školy"></a></p>
+                    <div>
+                        <p><a href="https://www.sspu-opava.cz" target="_blank"><img src="img/sspu_logo.png" alt="Logo školy"></a></p>
                         <p>Vytvořeno jako školní projekt v rámci předmětu Programové vybavení</p>
                         <p>&copy; Lukáš Sukeník 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <h5 class="text-primary text-uppercase border-bottom mb-4 pb-3">Kontakt na autora</h5>
-                    <div class="text-secondary">
+                    <div>
                         <p>E-mail: lukas.sukenik@outlook.cz</p>
                         <p>Github: <a href="https://github.com/lukyncze" target="_blank">https://github.com/lukyncze</a></p>
                     </div>
