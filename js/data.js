@@ -1,3 +1,9 @@
+var uvod = [
+    {
+        "text": "Spojené státy americké (anglicky United States of America, používané také United States, zkratka US nebo USA, česky Spojené státy) jsou demokratická federativní prezidentská republika v Severní Americe, rozkládající se od Atlantského po Tichý oceán. Na souši sousedí s Kanadou a Mexikem. Díky státu Aljaška sahá území Spojených států amerických i k břehům Severního ledového oceánu (Beringova úžina je dělí od asijského území Ruska) a na některé tichomořské ostrovy (zejména Havaj). Spojené státy se skládají z 50 států, jednoho federálního území s hlavním městem a sídlem prezidenta, Kongresu a Nejvyššího soudu (District of Columbia), šesti závislých území (Portoriko, Severní Mariany, Guam, Americké Panenské ostrovy, Americká Samoa a atol Palmyra) a deseti malých ostrovů či útesů."
+    }
+]
+
 var obrazky = [
     {
         "name": "New York",
@@ -13,7 +19,10 @@ var obrazky = [
         "name": "Florida",
         "shot": "florida",
         "description": "Na Floridě jsou velmi časté hurikány. Sezóna je od prosince do března, kdy teplota není až tak vysoká. V létě se teplota drží často nad třicet stupňů a noci jsou velmi teplé. Teplota moře se pohybuje okolo třiceti stupňů Celsia."
-    },
+    }
+];
+
+var obrazky2 = [
     {
         "name": "Utah",
         "shot": "utah",
@@ -23,6 +32,11 @@ var obrazky = [
         "name": "Kalifornie",
         "shot": "kalifornie",
         "description": "Kalifornie je nejlidnatějším státem USA. Podle sčítání lidu z roku 2010 zde žilo 37 253 956 obyvatel, v roce 2014 to již bylo přibližně 38 340 000 obyvatel. Je to také nejvíc urbanizovaný stát USA, ve městech v roce 2010 žilo 95 % obyvatel Kalifornie. Hustota zalidnění je 95 obyvatel na čtvereční kilometr."
+    },
+    {
+        "name": "Minnesota",
+        "shot": "minnesota",
+        "description": ""
     }
 ];
 
