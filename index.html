@@ -38,22 +38,23 @@
                 <section id="obrazky" class="container">
                     <div class="row mt-3">
                         <div class="col-sm-12 col-md-6">
+                            <h3></h3>
+                            <p class="text-justify"></p>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
                             <figure>
                                 <img src="" alt="Obrázky" class="img-fluid">
                             </figure>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <h3></h3>
-                            <p class="text-justify"></p>
                         </div>
                     </div>
                 </section>
             </aside>
     
-            <section id="prehled" class="container p-5">
+            <section id="prehled" class="container pt-5 pb-5">
                 <div class="row">
-                    <div class="col-sm-12 col-md-8">
-                        <h2>Přehled států USA</h2> 
+                    <div class="col-sm-12 col-md-8" id="nadpis">
+                        <h2>Přehled států USA</h2>
+                        <p></p>
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <input class="form-control" id="myInput" type="text" placeholder="Hledat informace...">        
@@ -63,6 +64,7 @@
                 <table class="table table-sm table-striped">
                     <thead>
                         <tr>
+                            <th></th>
                             <th>Název</th>
                             <th>Anglický název</th>
                             <th>Hlavní město</th>
@@ -80,21 +82,41 @@
                 <h4 class="text-center"><i class="fas fa-arrow-up"></i> Klikni na záhlaví tabulky pro zobrazení všech dat <i class="fas fa-arrow-up"></i></h4>
             </section>
 
-            <aside class="bg-secondary p-4">
+            <aside class="bg-primary p-4 text-white">
                 <section id="obrazky2" class="container">
                     <div class="row mt-3">
-                        <div class="col-sm-12 col-md-6">
-                            <h3></h3>
-                            <p class="text-justify"></p>
-                        </div>
                         <div class="col-sm-12 col-md-6">
                             <figure>
                                 <img src="" alt="Obrázky" class="img-fluid">
                             </figure>
                         </div>
+                        <div class="col-sm-12 col-md-6">
+                            <h3></h3>
+                            <p class="text-justify"></p>
+                        </div>
                     </div>
                 </section>
             </aside>
+
+            <aside class="bg-secondary p-5">
+                <section id="kviz" class="container text-white">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <h2>Kvíz</h2>
+                            <div id="otazky"></div>
+                            <button id="submit" class="btn btn-success mb-3">Zkontrolovat</button>
+                            <div id="vysledky"></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <figure>
+                                <img src="img/flags.png" alt="Obrázky 1-4" class="img-fluid mb-3">
+                                <img src="img/positions.png" alt="Obrázky A-D" class="img-fluid">
+                            </figure>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+            
 
     </main>
 
@@ -138,6 +160,8 @@
         </div>
     </div>
 
+    <div id="modals"></div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
@@ -145,7 +169,8 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="js/data.js"></script>    
+    <script src="js/data.js"></script>
+    <script src="js/quiz.js"></script> 
     <script src="js/main.js"></script>    
 </body>
 

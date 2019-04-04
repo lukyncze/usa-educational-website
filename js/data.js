@@ -13,7 +13,7 @@ var obrazky = [
     {
         "name": "Texas",
         "shot": "texas",
-        "description": "Se svou rozlohou 696 241 km² je Texas druhým největším státem USA, v počtu obyvatel (27,9 milionů) je rovněž druhým nejlidnatějším státem. Obyvatelstvo Texasu je velmi různorodé. Neustále se mění kvůli přílivu obyvatel z Mexika a z Latinské Ameriky."
+        "description": "Se svou rozlohou 696 241 je Texas druhým největším státem USA, v počtu obyvatel (27,9 milionů) je rovněž druhým nejlidnatějším státem. Obyvatelstvo Texasu je velmi různorodé. Neustále se mění kvůli přílivu obyvatel z Mexika a z Latinské Ameriky."
     },
     {
         "name": "Florida",
@@ -36,17 +36,17 @@ var obrazky2 = [
     {
         "name": "Minnesota",
         "shot": "minnesota",
-        "description": ""
+        "description": "Minnesota je známa jako země tisíce jezer, která spolu s mnohými parky a lesy nabízejí obyvatelům a turistům prostor k rekreaci. Skoro 60 % obyvatel žije v oblasti aglomerace Minneapolis-Saint Paul. Tato dvě města jsou centrem obchodu, dopravy i průmyslu ve státě. Na západě státu je mnoho prérií, které jsou nyní intenzivně využívány k zemědělství, na východě jsou listnaté lesy a na severu méně obydlené oblasti tajg."
     }
 ];
 
-var states = [
+var staty = [
     {
         "czname": "Alabama",
         "enname": "Alabama",
         "capital": "Montgomery",
-        "img": "alabama.png",
-        "area": "135 765 km²",
+        "img": "alabama",
+        "area": "135 765",
         "population": "4 779 736",
         "link": "https://cs.wikipedia.org/wiki/Alabama"
     },
@@ -54,8 +54,8 @@ var states = [
         "czname": "Aljaška",
         "enname": "Alaska",
         "capital": "Juneau",
-        "img": "aljaska.png",
-        "area": "1 717 854 km²",
+        "img": "aljaska",
+        "area": "1 717 854",
         "population": "710 231",
         "link": "https://cs.wikipedia.org/wiki/Alja%C5%A1ka"
     },
@@ -63,8 +63,8 @@ var states = [
         "czname": "Arizona",
         "enname": "Arizona",
         "capital": "Phoenix",
-        "img": "arizona.png",
-        "area": "295 254 km²",
+        "img": "arizona",
+        "area": "295 254",
         "population": "6 392 017",
         "link": "https://cs.wikipedia.org/wiki/Arizona"
     },
@@ -72,8 +72,8 @@ var states = [
         "czname": "Arkansas",
         "enname": "Arkansas",
         "capital": "Little Rock",
-        "img": "arkansas.png",
-        "area": "137 732 km²",
+        "img": "arkansas",
+        "area": "137 732",
         "population": "2 915 915",
         "link": "https://cs.wikipedia.org/wiki/Arkansas"
     },
@@ -81,17 +81,17 @@ var states = [
         "czname": "Kalifornie",
         "enname": "California",
         "capital": "Sacramento",
-        "img": "kalifornie.png",
-        "area": "423 970 km²",
-        "population": "37 253 956",
+        "img": "kalifornie",
+        "area": "423 970",
+        "population": "39 250 017",
         "link": "https://cs.wikipedia.org/wiki/Kalifornie"
     },
     {
         "czname": "Colorado",
         "enname": "Colorado",
         "capital": "Denver",
-        "img": "colorado.png",
-        "area": "269 837 km²",
+        "img": "colorado",
+        "area": "269 837",
         "population": "5 029 196",
         "link": "https://cs.wikipedia.org/wiki/Colorado"
     },
@@ -99,8 +99,8 @@ var states = [
         "czname": "Connecticut",
         "enname": "Connecticut",
         "capital": "Hartford",
-        "img": "connecticut.png",
-        "area": "14 371 km²",
+        "img": "connecticut",
+        "area": "14 371",
         "population": "3 574 097",
         "link": "https://cs.wikipedia.org/wiki/Connecticut"
     },
@@ -108,8 +108,8 @@ var states = [
         "czname": "Delaware",
         "enname": "Delaware",
         "capital": "Dover",
-        "img": "delaware.png",
-        "area": "6 542 km²",
+        "img": "delaware",
+        "area": "6 542",
         "population": "897 934",
         "link": "https://cs.wikipedia.org/wiki/Delaware"
     },
@@ -117,8 +117,8 @@ var states = [
         "czname": "Florida",
         "enname": "Florida",
         "capital": "Tallahassee",
-        "img": "florida.png",
-        "area": "170 451 km²",
+        "img": "florida",
+        "area": "170 451",
         "population": "18 801 310",
         "link": "https://cs.wikipedia.org/wiki/Florida"
     },
@@ -126,8 +126,8 @@ var states = [
         "czname": "Georgie",
         "enname": "Georgia",
         "capital": "Atlanta",
-        "img": "georgie.png",
-        "area": "154 077 km²",
+        "img": "georgie",
+        "area": "154 077",
         "population": "9 687 653",
         "link": "https://cs.wikipedia.org/wiki/Georgie"
     },
@@ -135,8 +135,8 @@ var states = [
         "czname": "Havaj",
         "enname": "Hawaii",
         "capital": "Honolulu",
-        "img": "havaj.png",
-        "area": "28 337 km²",
+        "img": "havaj",
+        "area": "28 337",
         "population": "1 360 301",
         "link": "https://cs.wikipedia.org/wiki/Havaj"
     },
@@ -144,8 +144,8 @@ var states = [
         "czname": "Idaho",
         "enname": "Idaho",
         "capital": "Boise",
-        "img": "idaho.png",
-        "area": "216 632 km²",
+        "img": "idaho",
+        "area": "216 632",
         "population": "1 567 582",
         "link": "https://cs.wikipedia.org/wiki/Idaho"
     },
@@ -153,8 +153,8 @@ var states = [
         "czname": "Illinois",
         "enname": "Illinois",
         "capital": "Springfield",
-        "img": "illinois.png",
-        "area": "149 997 km²",
+        "img": "illinois",
+        "area": "149 997",
         "population": "12 830 632",
         "link": "https://cs.wikipedia.org/wiki/Illinois"
     },
@@ -162,8 +162,8 @@ var states = [
         "czname": "Indiana",
         "enname": "Indiana",
         "capital": "Indianapoliss",
-        "img": "indiana.png",
-        "area": "94 321 km²",
+        "img": "indiana",
+        "area": "94 321",
         "population": "6 483 802",
         "link": "https://cs.wikipedia.org/wiki/Indiana"
     },
@@ -171,8 +171,8 @@ var states = [
         "czname": "Iowa",
         "enname": "Iowa",
         "capital": "Des Moines",
-        "img": "iowa.png",
-        "area": "145 746 km²",
+        "img": "iowa",
+        "area": "145 746",
         "population": "3 046 355",
         "link": "https://cs.wikipedia.org/wiki/Iowa"
     },
@@ -180,8 +180,8 @@ var states = [
         "czname": "Kansas",
         "enname": "Kansas",
         "capital": "Topeka",
-        "img": "kansas.png",
-        "area": "213 283 km²",
+        "img": "kansas",
+        "area": "213 283",
         "population": "2 853 118",
         "link": "https://cs.wikipedia.org/wiki/Kansas"
     },
@@ -189,8 +189,8 @@ var states = [
         "czname": "Kentucky",
         "enname": "Kentucky",
         "capital": "Frankfort",
-        "img": "kentucky.png",
-        "area": "104 749 km²",
+        "img": "kentucky",
+        "area": "104 749",
         "population": "4 339 367",
         "link": "https://cs.wikipedia.org/wiki/Kentucky"
     },
@@ -198,8 +198,8 @@ var states = [
         "czname": "Louisiana",
         "enname": "Louisiana",
         "capital": "Baton Rouge",
-        "img": "louisiana.png",
-        "area": "135 382 km²",
+        "img": "louisiana",
+        "area": "135 382",
         "population": "4 533 372",
         "link": "https://cs.wikipedia.org/wiki/Louisiana"
     },
@@ -207,8 +207,8 @@ var states = [
         "czname": "Maine",
         "enname": "Maine",
         "capital": "Augusta",
-        "img": "maine.png",
-        "area": "86 542 km²",
+        "img": "maine",
+        "area": "86 542",
         "population": "1 328 361",
         "link": "https://cs.wikipedia.org/wiki/Maine"
     },
@@ -216,8 +216,8 @@ var states = [
         "czname": "Maryland",
         "enname": "Maryland",
         "capital": "Annapolis",
-        "img": "maryland.png",
-        "area": "32 160 km²",
+        "img": "maryland",
+        "area": "32 160",
         "population": "5 773 552",
         "link": "https://cs.wikipedia.org/wiki/Maryland"
     },
@@ -225,8 +225,8 @@ var states = [
         "czname": "Massachusetts",
         "enname": "Massachusetts",
         "capital": "Boston",
-        "img": "massachusetts.png",
-        "area": "27 360 km²",
+        "img": "massachusetts",
+        "area": "27 360",
         "population": "6 547 629",
         "link": "https://cs.wikipedia.org/wiki/Massachusetts"
     },
@@ -234,8 +234,8 @@ var states = [
         "czname": "Michigan",
         "enname": "Michigan",
         "capital": "Lansing",
-        "img": "michigan.png",
-        "area": "250 941 km²",
+        "img": "michigan",
+        "area": "250 941",
         "population": "9 883 640",
         "link": "https://cs.wikipedia.org/wiki/Michigan"
     },
@@ -243,8 +243,8 @@ var states = [
         "czname": "Minnesota",
         "enname": "Minnesota",
         "capital": "Saint Paul",
-        "img": "minnesota.png",
-        "area": "225 365 km²",
+        "img": "minnesota",
+        "area": "225 365",
         "population": "5 303 925",
         "link": "https://cs.wikipedia.org/wiki/Minnesota"
     },
@@ -252,8 +252,8 @@ var states = [
         "czname": "Mississippi",
         "enname": "Mississippi",
         "capital": "Jackson",
-        "img": "mississippi.png",
-        "area": "125 546 km²",
+        "img": "mississippi",
+        "area": "125 546",
         "population": "2 967 297",
         "link": "https://cs.wikipedia.org/wiki/Mississippi_(st%C3%A1t)"
     },
@@ -261,8 +261,8 @@ var states = [
         "czname": "Missouri",
         "enname": "Missouri",
         "capital": "Jefferson City",
-        "img": "missouri.png",
-        "area": "180 693 km²",
+        "img": "missouri",
+        "area": "180 693",
         "population": "5 988 927",
         "link": "https://cs.wikipedia.org/wiki/Missouri_(st%C3%A1t)"
     },
@@ -270,8 +270,8 @@ var states = [
         "czname": "Montana",
         "enname": "Montana",
         "capital": "Helena",
-        "img": "montana.png",
-        "area": "381 156 km²",
+        "img": "montana",
+        "area": "381 156",
         "population": "989 415",
         "link": "https://cs.wikipedia.org/wiki/Montana"
     },
@@ -279,8 +279,8 @@ var states = [
         "czname": "Nebraska",
         "enname": "Nebraska",
         "capital": "Lincoln",
-        "img": "nebraska.png",
-        "area": "200 520 km²",
+        "img": "nebraska",
+        "area": "200 520",
         "population": "1 826 341",
         "link": "https://cs.wikipedia.org/wiki/Nebraska"
     },
@@ -288,8 +288,8 @@ var states = [
         "czname": "Nevada",
         "enname": "Nevada",
         "capital": "Carson City",
-        "img": "nevada.png",
-        "area": "286 351 km²",
+        "img": "nevada",
+        "area": "286 351",
         "population": "2 700 551",
         "link": "https://cs.wikipedia.org/wiki/Nevada"
     },
@@ -297,8 +297,8 @@ var states = [
         "czname": "New Hampshire",
         "enname": "New Hampshire",
         "capital": "Concord",
-        "img": "new_hampshire.png",
-        "area": "24 239 km²",
+        "img": "new_hampshire",
+        "area": "24 239",
         "population": "1 316 470",
         "link": "https://cs.wikipedia.org/wiki/New_Hampshire"
     },
@@ -306,8 +306,8 @@ var states = [
         "czname": "New Jersey",
         "enname": "New Jersey",
         "capital": "Trenton",
-        "img": "new_jersey.png",
-        "area": "22 608 km²",
+        "img": "new_jersey",
+        "area": "22 608",
         "population": "8 791 894",
         "link": "https://cs.wikipedia.org/wiki/New_Jersey"
     },
@@ -315,8 +315,8 @@ var states = [
         "czname": "Nové Mexiko",
         "enname": "New Mexico",
         "capital": "Santa Fe",
-        "img": "nove_mexiko.png",
-        "area": "314 590 km²",
+        "img": "nove_mexiko",
+        "area": "314 590",
         "population": "2 059 179",
         "link": "https://cs.wikipedia.org/wiki/Nov%C3%A9_Mexiko"
     },
@@ -324,8 +324,8 @@ var states = [
         "czname": "New York",
         "enname": "New York",
         "capital": "Albany",
-        "img": "new_york.png",
-        "area": "141 205 km²",
+        "img": "new_york",
+        "area": "141 205",
         "population": "19 378 102",
         "link": "https://cs.wikipedia.org/wiki/New_York_(st%C3%A1t)"
     },
@@ -333,8 +333,8 @@ var states = [
         "czname": "Severní Karolína",
         "enname": "North Carolina",
         "capital": "Raleigh",
-        "img": "severni_karolina.png",
-        "area": "139 509 km²",
+        "img": "severni_karolina",
+        "area": "139 509",
         "population": "9 535 483",
         "link": "https://cs.wikipedia.org/wiki/Severn%C3%AD_Karol%C3%ADna"
     },
@@ -342,8 +342,8 @@ var states = [
         "czname": "Severní Dakota",
         "enname": "North Dakota",
         "capital": "Bismarck",
-        "img": "severni_dakota.png",
-        "area": "183 272 km²",
+        "img": "severni_dakota",
+        "area": "183 272",
         "population": "672 591",
         "link": "https://cs.wikipedia.org/wiki/Severn%C3%AD_Dakota"
     },
@@ -351,8 +351,8 @@ var states = [
         "czname": "Ohio",
         "enname": "Ohio",
         "capital": "Columbus",
-        "img": "ohio.png",
-        "area": "116 096 km²",
+        "img": "ohio",
+        "area": "116 096",
         "population": "11 536 504",
         "link": "https://cs.wikipedia.org/wiki/Ohio"
     },
@@ -360,8 +360,8 @@ var states = [
         "czname": "Oklahoma",
         "enname": "Oklahoma",
         "capital": "Oklahoma City",
-        "img": "oklahoma.png",
-        "area": "181 196 km²",
+        "img": "oklahoma",
+        "area": "181 196",
         "population": "3 751 351",
         "link": "https://cs.wikipedia.org/wiki/Oklahoma"
     },
@@ -369,8 +369,8 @@ var states = [
         "czname": "Oregon",
         "enname": "Oregon",
         "capital": "Salem",
-        "img": "oregon.png",
-        "area": "255 026 km²",
+        "img": "oregon",
+        "area": "255 026",
         "population": "3 831 074",
         "link": "https://cs.wikipedia.org/wiki/Oregon"
     },
@@ -378,8 +378,8 @@ var states = [
         "czname": "Pensylvánie",
         "enname": "Pennsylvania",
         "capital": "Harrisburg",
-        "img": "pensylvanie.png",
-        "area": "119 283 km²",
+        "img": "pensylvanie",
+        "area": "119 283",
         "population": "12 702 379",
         "link": "https://cs.wikipedia.org/wiki/Pensylv%C3%A1nie"
     },
@@ -387,8 +387,8 @@ var states = [
         "czname": "Rhode Island",
         "enname": "Rhode Island",
         "capital": "Providence",
-        "img": "rhode_island.png",
-        "area": "4 002 km²",
+        "img": "rhode_island",
+        "area": "4 002",
         "population": "1 052 567",
         "link": "https://cs.wikipedia.org/wiki/Rhode_Island"
     },
@@ -396,8 +396,8 @@ var states = [
         "czname": "Jížní Karolína",
         "enname": "South Carolina",
         "capital": "Columbia",
-        "img": "jizni_karolina.png",
-        "area": "82 965 km²",
+        "img": "jizni_karolina",
+        "area": "82 965",
         "population": "4 625 364",
         "link": "https://cs.wikipedia.org/wiki/Ji%C5%BEn%C3%AD_Karol%C3%ADna"
     },
@@ -405,8 +405,8 @@ var states = [
         "czname": "Jižní Dakota",
         "enname": "South Dakota",
         "capital": "Pierre",
-        "img": "jizni_dakota.png",
-        "area": "199 905 km²",
+        "img": "jizni_dakota",
+        "area": "199 905",
         "population": "814 180",
         "link": "https://cs.wikipedia.org/wiki/Ji%C5%BEn%C3%AD_Dakota"
     },
@@ -414,8 +414,8 @@ var states = [
         "czname": "Tennessee",
         "enname": "Tennessee",
         "capital": "Nashville",
-        "img": "tennessee.png",
-        "area": "109 247 km²",
+        "img": "tennessee",
+        "area": "109 247",
         "population": "6 346 105",
         "link": "https://cs.wikipedia.org/wiki/Tennessee"
     },
@@ -423,8 +423,8 @@ var states = [
         "czname": "Texas",
         "enname": "Texas",
         "capital": "Austin",
-        "img": "texas.png",
-        "area": "696 241 km²",
+        "img": "texas",
+        "area": "696 241",
         "population": "27 862 596",
         "link": "https://cs.wikipedia.org/wiki/Texas"
     },
@@ -432,8 +432,8 @@ var states = [
         "czname": "Utah",
         "enname": "Utah",
         "capital": "Salt Lake City",
-        "img": "utah.png",
-        "area": "220 080 km²",
+        "img": "utah",
+        "area": "220 080",
         "population": "2 763 885",
         "link": "https://cs.wikipedia.org/wiki/Utah"
     },
@@ -441,8 +441,8 @@ var states = [
         "czname": "Vermont",
         "enname": "Vermont",
         "capital": "Montpelier",
-        "img": "vermont.png",
-        "area": "24 923 km²",
+        "img": "vermont",
+        "area": "24 923",
         "population": "625 741",
         "link": "https://cs.wikipedia.org/wiki/Vermont"
     },
@@ -450,8 +450,8 @@ var states = [
         "czname": "Virginie",
         "enname": "Virginia",
         "capital": "Richmond",
-        "img": "virginie.png",
-        "area": "110 862 km²",
+        "img": "virginie",
+        "area": "110 862",
         "population": "8 001 024",
         "link": "https://cs.wikipedia.org/wiki/Virginie"
     },
@@ -459,8 +459,8 @@ var states = [
         "czname": "Washington",
         "enname": "Washington",
         "capital": "Olympia",
-        "img": "washington.png",
-        "area": "184 824 km²",
+        "img": "washington",
+        "area": "184 824",
         "population": "6 724 540",
         "link": "https://cs.wikipedia.org/wiki/Washington_(st%C3%A1t)"
     },
@@ -468,8 +468,8 @@ var states = [
         "czname": "Západní Virginie",
         "enname": "West Virginia",
         "capital": "Charleston",
-        "img": "zapadni_virginie.png",
-        "area": "62 809 km²",
+        "img": "zapadni_virginie",
+        "area": "62 809",
         "population": "1 852 994",
         "link": "https://cs.wikipedia.org/wiki/Z%C3%A1padn%C3%AD_Virginie"
     },
@@ -477,8 +477,8 @@ var states = [
         "czname": "Wisconsin",
         "enname": "Wisconsin",
         "capital": "Madison",
-        "img": "wisconsin.png",
-        "area": "169 700 km²",
+        "img": "wisconsin",
+        "area": "169 700",
         "population": "5 686 986",
         "link": "https://cs.wikipedia.org/wiki/Wisconsin"
     },
@@ -486,8 +486,8 @@ var states = [
         "czname": "Wyoming",
         "enname": "Wyoming",
         "capital": "Cheyenne",
-        "img": "wyoming.png",
-        "area": "253 338 km²",
+        "img": "wyoming",
+        "area": "253 338",
         "population": "563 626",
         "link": "https://cs.wikipedia.org/wiki/Wyoming"
     }
