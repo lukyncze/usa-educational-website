@@ -51,6 +51,14 @@ h2 {
     display: none;
 }
 
+#casti-ny h2 {
+    margin-top: 25px;
+}
+
+#casti-ny a, a:hover {
+    color: white;
+}
+
 input {
     margin: 10px;
 }
