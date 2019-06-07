@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "New York",
+    "description": "Část území státu New York byla v 17. století součástí nizozemské provincie Nové Nizozemí, kterou Angličané v roce 1664 obsadili. Založili zde provincii, kterou pojmenovali po Jakubovi, vévodovi z Yorku. Provincie se roku 1776 stala jedním z původních třinácti zakládajících států USA."
+  },
+  {
+    "id": 2,
+    "name": "Texas",
+    "description": "Se svou rozlohou 696 241 je Texas druhým největším státem USA, v počtu obyvatel (27,9 milionů) je rovněž druhým nejlidnatějším státem. Obyvatelstvo Texasu je velmi různorodé. Neustále se mění kvůli přílivu obyvatel z Mexika a z Latinské Ameriky."
+  },
+  {
+    "id": 3,
+    "name": "Florida",
+    "description": "Na Floridě jsou velmi časté hurikány. Sezóna je od prosince do března, kdy teplota není až tak vysoká. V létě se teplota drží často nad třicet stupňů a noci jsou velmi teplé. Teplota moře se pohybuje okolo třiceti stupňů Celsia."
+  },
+  {
+    "id": 4,
+    "name": "Utah",
+    "description": "Utah je jedním z nábožensky nejhomogennějším státům USA, asi 62 % jeho obyvatel se hlásí k mormonismu, který stál u založení státu a dodnes má velký vliv na utažskou kulturu a každodenní život. Mottem státu je „Industry“, květinou lilie (Calochortus nuttallii), stromem smrk pichlavý, ptákem racek a písní „Utah, We Love Thee“."
+  },
+  {
+    "id": 5,
+    "name": "Kalifornie",
+    "description": "Kalifornie je nejlidnatějším státem USA. Podle sčítání lidu z roku 2010 zde žilo 37 253 956 obyvatel, v roce 2014 to již bylo přibližně 38 340 000 obyvatel. Je to také nejvíc urbanizovaný stát USA, ve městech v roce 2010 žilo 95 % obyvatel Kalifornie. Hustota zalidnění je 95 obyvatel na čtvereční kilometr."
+  },
+  {
+    "id": 6,
+    "name": "Minnesota",
+    "description": "Minnesota je známa jako země tisíce jezer, která spolu s mnohými parky a lesy nabízejí obyvatelům a turistům prostor k rekreaci. Skoro 60 % obyvatel žije v oblasti aglomerace Minneapolis-Saint Paul. Tato dvě města jsou centrem obchodu, dopravy i průmyslu ve státě. Na západě státu je mnoho prérií, které jsou nyní intenzivně využívány k zemědělství, na východě jsou listnaté lesy a na severu méně obydlené oblasti tajg."
+  }
+]
