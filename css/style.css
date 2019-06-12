@@ -59,6 +59,10 @@ h2 {
     color: white;
 }
 
+footer a:hover {
+    color: red;
+}
+
 input {
     margin: 10px;
 }
