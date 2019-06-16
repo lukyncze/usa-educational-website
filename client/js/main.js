@@ -9,11 +9,11 @@ $(function(){
                 console.log(textStatus);
                 console.log(data);
                 $('#list').html('');
-                data.forEach(function(film) {
-                    $('#list').append('<tr><td>'+film.id
-                        +'</td><td><a href="#" data-id="'+film.id+'">'+film.name
-                        +'</a></td><td><button class="btn btn-danger delete" data-id="'
-                        +film.id+'">Smazat</button></td></tr>');
+                data.forEach(function(state) {
+                    $('#list').append('<tr><td>'+state.id+'</td><td><a href="#" data-id="'+state.id+'">'
+                        +state.name+'</a></td><td>'+state.position+'</td><td>'
+                        +state.population+'</td><td><button class="btn btn-danger delete" data-id="'
+                        +state.id+'">Smazat</button></td></tr>');
                 });
                 $('#list a').on('click', function(){
                     getById($(this).data('id'));
@@ -39,6 +39,8 @@ $(function(){
                 console.log(data);
                 $('#id').val(data.id);
                 $('#name').val(data.name);
+                $('#position').val(data.position);
+                $('#population').val(data.population);
                 $('#description').val(data.description);
                 $('#modelId').modal('show');
             },
@@ -104,6 +106,8 @@ $(function(){
     $('button#submit').on('click', function(){
         var json = {};
         json.name = $('#name').val();
+        json.position = $('#position').val();
+        json.population = $('#population').val();
         json.description = $('#description').val();
         var data = JSON.stringify(json);
         if ($('#id').val()) {
@@ -116,6 +120,8 @@ $(function(){
     $('button#create').on('click', function(){
         $('#id').val('');
         $('#name').val('');
+        $('#position').val('');
+        $('#population').val('');
         $('#description').val('');
     });
 

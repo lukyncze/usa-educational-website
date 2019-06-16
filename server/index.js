@@ -42,6 +42,8 @@ app.post("/api/states", (req, res) => {
     const state = {
       id: states.length !== 0 ? states[states.length - 1].id + 1 : 1,
       name: req.body.name,
+      position: req.body.position,
+      population: req.body.population,
       description: req.body.description,
     };
     states.push(state);
@@ -62,6 +64,8 @@ app.put("/api/states/:id", (req, res) => {
     res.status(400).send(error.details[0].message);
   } else {
     state.name = req.body.name;
+    state.position = req.body.position;
+    state.population = req.body.population;
     state.description = req.body.description;
     res.send(state);
     writeJSON(states, "states.json");
@@ -88,6 +92,8 @@ function validateState(state) {
     name: Joi.string()
       .min(2)
       .required(),
+    position: Joi.string(),
+    population: Joi.number(),
     description: Joi.string()
   };
   return Joi.validate(state, schema);

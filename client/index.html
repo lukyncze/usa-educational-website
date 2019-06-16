@@ -22,6 +22,8 @@
         <tr>
           <th>ID</th>
           <th>Název státu</th>
+          <th>Pozice státu</th>
+          <th>Počet obyvatel</th>
           <th>Akce</th>
         </tr>
       </thead>
@@ -59,27 +61,21 @@
                   <input type="text" class="form-control" name="name" id="name">
                 </div>
               </div>
-              <!--
               <div class="form-group row">
-                <label for="year" class="col-sm-3 col-form-label">Rok</label>
+                <label for="position" class="col-sm-3 col-form-label">Pozice státu</label>
                 <div class="col-sm-9">
-                  <input type="number" class="form-control" name="year" id="year">
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="state" class="col-sm-3 col-form-label">Stát</label>
-                <div class="col-sm-9">
-                    <select class="custom-select" name="state" id="state">
-                      <option value="Československo">Československo</option>
-                      <option value="Česká republika">Česká republika</option>
-                      <option value="Francie">Francie</option>
-                      <option value="Itálie">Itálie</option>
-                      <option value="USA">USA</option>
-                      <option value="Velká Británie">Velká Británie</option>
+                    <select class="custom-select" name="position" id="position">
+                      <option value="přímořský">přímořský</option>
+                      <option value="vnitrozemský">vnitrozemský</option>
                     </select>
                 </div>
               </div>
-              -->
+              <div class="form-group row">
+                <label for="population" class="col-sm-3 col-form-label">Počet obyvatel</label>
+                <div class="col-sm-9">
+                  <input type="number" class="form-control" name="population" id="population">
+                </div>
+              </div>
               <div class="form-group row">
                 <label for="description" class="col-sm-3 col-form-label">Obsah</label>
                 <div class="col-sm-9">
