@@ -1,3 +1,3 @@
-Výukový web o státech USA
+# Educational web about USA
 
-Demo web: https://lukyncze.github.io/usa-educational-website/ 
+You can visit site [here](https://lukyncze-usa-educational-website.netlify.app/).
