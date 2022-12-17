@@ -55,12 +55,8 @@ h2 {
     margin-top: 25px;
 }
 
-#casti-ny a, a:hover {
+#casti-ny a {
     color: white;
-}
-
-footer a:hover {
-    color: red;
 }
 
 input {
